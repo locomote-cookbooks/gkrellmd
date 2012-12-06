@@ -8,8 +8,8 @@ This cookbook has been tested on CentOS and RHEL version 6.3 but should work for
 
 # Attributes
 
-* `node['gkrellmd']['port']` - the port the daemon will use
-* `node['gkrellmd']['allowed_hosts']` - Restrict acces to particular hosts. Empty array allows all.
+* `node['gkrellmd']['port']` - the port the daemon will use. Default is 19150.
+* `node['gkrellmd']['allowed_hosts']` - Restrict acces to particular hosts. Empty array (default) allows all.
 
 # Usage
 
