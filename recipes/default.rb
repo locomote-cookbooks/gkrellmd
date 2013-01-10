@@ -20,5 +20,5 @@ template "/etc/gkrellmd.conf" do
 end
 
 service 'gkrellmd' do
-  action :restart
+  action [:enable, :start]
 end
