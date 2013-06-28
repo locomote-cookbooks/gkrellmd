@@ -23,7 +23,7 @@ port <%= @port %>
 # gkrellmd.conf file or on the command line, all hosts will be allowed.
 #
 <% @allowed_hosts.each do |host| %>
-allow-host	<%= host %>
+allow-host <%= host %>
 <% end %>
 
 # Drop privileges after startup (you must start gkrellmd as root to do it).

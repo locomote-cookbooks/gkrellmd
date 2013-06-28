@@ -1,0 +1,13 @@
+{
+  "sha": "6ef716553a56267bb3eb743ece483db8aa94cecb",
+  "sources": {
+    "gkrellmd": {
+      "locked_version": "0.2.1",
+      "constraint": "= 0.2.1",
+      "path": "."
+    },
+    "yum": {
+      "locked_version": "2.3.0"
+    }
+  }
+}

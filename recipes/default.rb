@@ -1,11 +1,8 @@
-package_name = if platform? %w{centos redhat}
-  'gkrellm-daemon'
+if platform? %w{centos redhat}
+  include_recipe 'yum::epel'
+  package 'gkrellm-daemon'
 elsif platform? %{ubuntu debian}
-  'gkrellmd'
-end
-
-package package_name do
-  action :install
+  package 'gkrellmd'
 end
 
 template "/etc/gkrellmd.conf" do
