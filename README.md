@@ -1,5 +1,5 @@
 # gkrellmd
-[![Build Status](https://travis-ci.org/locomote-cookbooks/gkrellmd.png?branch=master)](https://travis-ci.org/locomote-cookbook/gkrellmd)
+[![Build Status](https://travis-ci.org/locomote-cookbooks/gkrellmd.png?branch=master)](https://travis-ci.org/locomote-cookbooks/gkrellmd)
 
 This cookbook installs and configures gkrellm daemon.
 
