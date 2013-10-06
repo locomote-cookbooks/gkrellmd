@@ -3,6 +3,8 @@ if platform? %w{centos redhat}
   package 'gkrellm-daemon'
 elsif platform? %{ubuntu debian}
   package 'gkrellmd'
+else
+  package 'gkrellm-daemon'
 end
 
 template "/etc/gkrellmd.conf" do
